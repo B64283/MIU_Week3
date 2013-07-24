@@ -20,7 +20,7 @@ a:link {
 	text-align: -webkit-auto ;
 	text-decoration: underline ;
 	color: #fb55cc;
-	background-color: ;
+	background-color: none;
 	padding-left: 20px ;
 	width:33px ;
 	
@@ -59,20 +59,19 @@ li {
 	
 	
 }
-input[type="submit"] {
+/*input[type="submit"] {
 	margin: 50px;
 	margin-top: 5px;
 	padding: 13px;
 	font-size: larger;
-	background-color: #0076a0;
-	width: 190px;
+    width: 190px;
 	height: 40px;
 	text-align: center;
 	
 	
-}
+}*/
 ul.errors {
-	text-fill-color:  #f50707;
+	color: #fd0707;
 	padding: 10px;
 	font-style: italic;
 	font-weight: bold;
@@ -82,23 +81,23 @@ ul.errors {
 }
 	
 label {
-	color: rgba(255,255,255,1);
+	color: rgba(44,10,218,1);
 	font-family: sans-serif;
 	font-size: 18px;
 	font-weight: bold;
     text-align: left	
 }	
-fieldset {
+/*fieldset {
 	background-image:-webkit-linear-gradient(#a2f0fc 0%, #e3e3e3 65.56%);
 	border-color: #1505a0;
 	padding:20px
-	}	
+	}*/	
 	
-input[type="checkbox"] {
+/*input[type="checkbox"] {
 	  background-color: #1b0a8b;
 	 
 	 
-}	
+}	*/
 input[type="text"] {
 	width: 190px;
 }

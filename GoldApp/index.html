@@ -34,7 +34,7 @@
     <div data-role="content">
         <a href="#Home">
             <div style="width: 288px; height: 130px; position: relative; background-color: #c4c2c2; border: 0px solid #b8b8b8;">
-                <a href="Pageadditem.html" data-ajax="false">
+                <a href="#pageAdd" >
                      <img src="images/Untitled-1.png" alt="Untitled-1.jpg" width="288" height="130" alt="image" style="position: relative; top: 50%; left: 50%; margin-left: -144px; margin-top: -66px"></a>
                 
           
@@ -110,7 +110,99 @@
         </div>
     </div>
 </div>	
-<!-- Home --><!About Page>
+<!--Form-->
+<div data-role="page" id="pageAdd" data-add-back-btn="true">
+    <div data-theme="a" data-role="header" >
+        <h3>
+            Travel Planner
+        </h3>
+    </div>
+    <div data-role="content">
+      <form action=" " method="post" id="travelForm" >
+       
+        <div data-role="fieldcontain">
+            <label for="selectmenu1">
+                *Travel Type
+            </label>
+            <select id="selectmenu1" name="Travel Type" data-theme="a" data-mini="true">
+                <option value="value">
+                    Choose Travel Type
+                </option>
+                <option value="value">
+                    Business
+                </option>
+                <option value="value">
+                    Commute
+                </option>
+                <option value="value">
+                    Vacation
+                </option>
+            </select>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="textinput1">
+                *Destination
+            </label>
+            <input name="" id="textinput1" placeholder="Florida" value="" type="text"
+            data-mini="true">
+        </div>
+        <div id="checkboxes1" data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                <legend>
+                    Important Items:
+                </legend>
+                <input id="Clothes" name="Clothes" data-theme="a" type="checkbox">
+                <label for="Clothes">
+                    Clothes
+                </label>
+                <input id="Medication" name="Medication" data-theme="a" type="checkbox">
+                <label for="Medication">
+                    Medication
+                </label>
+                <input id="Toiletries" name="Toiletries" data-theme="a" type="checkbox">
+                <label for="Toiletries">
+                    Toiletries
+                </label>
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <input name="" id="textinput2" placeholder="7" value="" type="text" data-mini="true">
+            <label for="textinput2">
+                *Duration/days
+            </label>
+        </div>
+        <div data-role="fieldcontain">
+            <input id="slider1" type="range" name="slider1" value="50" min="500" max="10000"data-highlight="false" data-mini="true">
+        <label for="slider1">
+               $et Budget
+            </label>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="startdate">*Vacation Date</label>
+            <input type="date" min="1904-03-17" max="1904-05-17" id="startdate" name="startdate" required aria-required="true" placeholder="1911-03-17">            
+        
+        </div>
+        <div data-role="feildcontain">
+         <label for="textarea1">
+                Notes
+            </label>
+            <textarea name="notes" id="notes" placeholder="special notes"></textarea>
+        </div>
+        <div data-role="feildcontain">
+                <input type="submit" data-theme="b" value="Submit" name="submit" id="submit">
+                
+        </div>
+        <div>
+            <a href="" data-transition="slidedown">
+                Clear
+            </a>
+        </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+<!--About Page-->
 <div data-role="page" id="page2" data-add-back-btn="true">
     <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
@@ -252,7 +344,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Pageadditem.html"data-ajax="false" data-transition="fade" data-theme="a" data-icon="plus">
+                    <a href="#page-S" data-transition="fade" data-theme="a" data-icon="plus">
                         Suggest
                     </a>
                 </li>
@@ -298,7 +390,7 @@
         </h3>
     </div>
 </div> 
-<!-- Home -->
+<!-- Credits -->
 <div data-role="page" id="pagecredit" data-add-back-btn="true">
     <div data-theme="a" data-role="header">
         <h3>
@@ -383,7 +475,7 @@
         </h3>
     </div>
 </div> 
- <!-- Home -->
+ <!-- name and Hometown -->
 <div data-role="page" id="pagename" data-add-back-btn="true">
     <div data-theme="a" data-role="header">
         <h3>
@@ -400,7 +492,7 @@
         </h3>
     </div>
 </div>
-<!-- Home -->
+<!-- Likes -->
 <div data-role="page" id="pageL" data-add-back-btn="true">
     <div data-theme="a" data-role="header">
         <h3>
@@ -417,7 +509,7 @@
         </h3>
     </div>
 </div>
-<!-- Home -->
+<!-- EDU -->
 <div data-role="page" id="pageEd" data-add-back-btn="true">
     <div data-theme="a" data-role="header">
         <h3>
@@ -469,7 +561,7 @@
         </h3>
     </div>
 </div> 
- <!-- News Stream -->
+
 
            <!-- JavaScript under here -->
 
