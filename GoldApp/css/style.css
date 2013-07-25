@@ -70,18 +70,15 @@ li {
 	
 	
 }*/
-ul.errors {
-	color: #fd0707;
-	padding: 10px;
-	font-style: italic;
-	font-weight: bold;
-	font-size: 20px;
-	border: x-large;
-	
+label.error {
+	display: block;
+	margin: 5px 0;
+	color: #ff0d0d;
+		
 }
 	
 label {
-	color: rgba(44,10,218,1);
+	color: rgba(45,11,217,1);
 	font-family: sans-serif;
 	font-size: 18px;
 	font-weight: bold;
@@ -107,9 +104,18 @@ ul {
 	
 }
 input[type="search"] {
-    width:280px;
-    height:auto;
+    width: 280px;
+    height: auto;
     
 } 
 title {
 text-align: center;
+}
+
+#tterrorsLink {
+    display: none;
+    }
+
+
+
+
