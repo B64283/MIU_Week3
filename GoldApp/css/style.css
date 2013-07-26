@@ -52,9 +52,10 @@ form fieldset ul input {
 	
 }
 li {
-	color: rgba(5,34,107,1);
+	color: rgba(237,12,177,1);
 	font-size: 22px;
 	letter-spacing: normal;
+	font-family: sans-serif;
 	
 	
 	
@@ -78,11 +79,11 @@ label.error {
 }
 	
 label {
-	color: rgba(45,11,217,1);
+	color: rgba(0,0,0,1);
 	font-family: sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-    text-align: left	
+    text-align: center;	
 }	
 /*fieldset {
 	background-image:-webkit-linear-gradient(#a2f0fc 0%, #e3e3e3 65.56%);
@@ -100,7 +101,7 @@ input[type="text"] {
 }
 	
 ul {
-	color: rgba(184,14,14,0);
+	color: rgba(0,0,0,1);
 	
 }
 input[type="search"] {
@@ -115,6 +116,20 @@ text-align: center;
 #tterrorsLink {
     display: none;
     }
+
+#addItem {
+    background-color: #808080;
+
+
+
+
+
+
+
+
+
+
+
 
 
 

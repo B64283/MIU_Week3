@@ -137,7 +137,7 @@
                 </a>
             </li>
             <li data-theme="a">
-                <a href="BronzeApp/index.html" data-transition="slidefade">
+                <a href="#Desktop/MIU_Week3/BronzeApp/index.html" data-transition="slidefade">
                     Bronze App
                 </a>
             </li>
@@ -530,11 +530,12 @@
             </label>
         </div>
         <div data-role="fieldcontain">
-            <input id="slider1" type="range" name="slider1" value=" " min="500" max="10000"data-highlight="false" data-mini="true" class="required number" />
+            
         <label for="slider1">
                *Set Budget
             </label>
-        </div>
+            <input id="slider1" type="range" name="slider1" value=" " min="500" max="10000"data-highlight="false" data-mini="true" class="required number" />        
+            </div>
         <div data-role="fieldcontain">
             <label for="startdate">*Vacation Date</label>
             <input type="date" min="1904-03-17" max="4000-05-17" id="startdate" class="required date" name="startdate" required aria-required="true" placeholder="1911-03-17"></input>          
@@ -555,13 +556,13 @@
         </div>
         
         <a href="#TravelTypeErrors" id="tterrorsLink" data-rel="dialog" data-transition="pop">open Errors</a>
-        </form>
-        </div>
-    </div>
+      </form>
+   </div>
+</div>
 
 
 <!form above here-->
-<div data-role="dialog" id="TTypeErrors" data-add-back-btn="true">
+<div data-role="dialog" id="TravelTypeErrors" data-add-back-btn="true">
     <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         Field Missing 
@@ -569,10 +570,55 @@
     </div>
     <div data-role="content">
         <ul>
-	    <li>test.</li>
+	    <li> </li>
         </ul>
     </div>
 </div>
+
+<!--news-->
+
+<div data-role="page" id="pageN" data-add-back-btn="true">
+    <div data-role="header">
+        <h3>News stream</h3>
+    <div>
+    <div data-role="content">
+        <ul data-role="listview">
+            <li>
+                <h3>family Vacation to Disney World</h3>
+                <p>Aug 23 2013 for five days</p>
+            </a></li>
+     <div data-role="content">
+        <ul data-role="listview">
+            <li>
+                <h3>Romantic getaway to Paris</h3>
+                <p>Oct 01 2013</p>
+            </a></li>
+    <div data-role="content">
+        <ul data-role="listview">
+            <li>
+                <h3>Camping Trip to Yosemite</h3>
+                <p>Jan 10 2014</p>
+            </a></li>
+    <div data-role="content">
+        <ul data-role="listview">
+            <li>
+                <h3>Business trip to Israel</h3>
+                <p>9 days starting Feb 4 2014</p>
+            </a></li>
+   <div data-role="content">
+        <ul data-role="listview">
+            <li>
+                <h3>Vacation to Hawaii </h3>
+                <p>14 days starting may 5 2014</p>
+            </a></li>
+        
+        </ul>
+   </div>    
+  <div data-role="footer">
+      <h4></h4>
+  </div>
+ </div>   
+
 
 
            <!-- JavaScript under here -->
