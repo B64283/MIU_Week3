@@ -49,10 +49,11 @@ form fieldset ul input {
     width: 180px;
 	padding: 5px;
 	margin: 5px;
+	font-family: fantasy;
 	
 }
 li {
-	color: rgba(237,12,177,1);
+	color: rgba(9,5,117,1);
 	font-size: 22px;
 	letter-spacing: normal;
 	font-family: sans-serif;

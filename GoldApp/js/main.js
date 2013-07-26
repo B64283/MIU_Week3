@@ -11,15 +11,15 @@ $('#addItem').on('pageinit', function(){
 		myForm.validate({
 			invalidHandler: function(form, validator) {
 			     tterrorsLink.click();
-			     var html= ' ';
+			     //var html= ' ';
 			     for(var key in validator.submitted){
-			       var label = $(' label[for^=" ' + key +' "]'); 
-			       var legend = label.closest('fieldset').find('.content-label');
-			       var fieldName = legend.length ? legend.text() : label.text(); 
-			        html += '<li>'+ fieldName +'</li>';  
+			      var label = $(' label[for^=" ' + key +' "]'); 
+			       //var legend = label.closest('fieldset').find('.label');
+			       //var fieldName = legend.length ? legend.text() : label.text(); 
+			        //html += '<li>'+ fieldName +'</li>';  
 			     
 			     };
-			    $("#TravelTypeErrors ul").html(html);
+			    //$("#TravelTypeErrors ul").html(html);
 			},
 			submitHandler: function() {
 		var data = myForm.serializeArray();
