@@ -65,7 +65,7 @@ var storeData = function(data){
 	        item.startdate       =["startdate:", $("#startdate").value];	        
 	        item.notes          =["notes:", $("#notes").value];
  	   	   localStorage.setItem(id, JSON.stringify(item) );
-	   alert("Checklist Complete!");
+	   alert("Travel plan complete!");
 }; 
 
 
