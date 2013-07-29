@@ -41,31 +41,35 @@ var getData = function(){
 };
 
 var storeData = function(data){
-    
-     function storeData(key) {
+   
+    //function storeData(data) {
 	    //if there is no key, this means this is a new item and needs a new key
 	    
 		   var id           = Math.floor(Math.random()*10000001);
-	   
+	    
 	     // set id to existing key we"re editing so it will save over the data
 	     // the key is the same key that is passed along from the edit submit event handeler.
 	     // then goes to the validate function and the passed here, into the stor data function
-		    id= key;
-	    }
-    
+		    
+	   
+   
+   
     var item			  = {}; 
-	        item.TravelType    =["TravelType:", $("TravelType").value];         
-	        item.Destination    =["Destination:", $( "Destination").value];
-	        item.clothes        =["Clothes:", $("Clothes").value];
-	        item.meds          =["Medication:", $("Medication").value];
-	        item.toiletries       =["Toiletries:", $("Toiletries").value];	        
-	        item.Duration       =["Duration:", $("Duration").value];	        
-	        item.slider1         =["slider1:" , $("slider1").value];
-	        item.startdate       =["startdate:", $("startdate").value];	        
-	        item.notes          =["notes:", $("notes").value];
+	        item.TravelType    =["TravelType:", $("#TravelType").value];         
+	        item.Destination    =["Destination:", $("#Destination").value];
+	        item.clothes        =["Clothes:", $("#Clothes").value];
+	        item.meds          =["Medication:", $("#Medication").value];
+	        item.toiletries       =["Toiletries:", $("#Toiletries").value];	        
+	        item.Duration       =["Duration:", $("#Duration").value];	        
+	        item.slider1         =["slider1:" , $("#slider1").value];
+	        item.startdate       =["startdate:", $("#startdate").value];	        
+	        item.notes          =["notes:", $("#notes").value];
  	   	   localStorage.setItem(id, JSON.stringify(item) );
 	   alert("Checklist Complete!");
 }; 
+
+
+
 
 var	deleteItem = function (){
 			
