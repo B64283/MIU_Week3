@@ -11,6 +11,13 @@ h1 {
 	color:rgba(253,167,38,1);
 	 
 }
+#page1 {
+	background-image: linear-gradient(#8ba2b6 46.03%);
+}
+
+
+
+
 
 }
 a:link {
@@ -120,7 +127,6 @@ text-align: center;
 
 #addItem {
     background-color: #808080;
-
 
 
 
