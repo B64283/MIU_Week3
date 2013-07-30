@@ -55,15 +55,15 @@ var storeData = function(data){
    
    
     var item			  = {}; 
-	        item.TravelType    =["TravelType:", $("#TravelType").value];         
-	        item.Destination    =["Destination:", $("#Destination").value];
-	        item.clothes        =["Clothes:", $("#Clothes").value];
-	        item.meds          =["Medication:", $("#Medication").value];
-	        item.toiletries       =["Toiletries:", $("#Toiletries").value];	        
-	        item.Duration       =["Duration:", $("#Duration").value];	        
-	        item.slider1         =["slider1:" , $("#slider1").value];
-	        item.startdate       =["startdate:", $("#startdate").value];	        
-	        item.notes          =["notes:", $("#notes").value];
+	        item.TravelType    =["TravelType:", $("#TravelType").val()];         
+	        item.Destination    =["Destination:", $("#Destination").val()];
+	        item.clothes        =["Clothes:", $("#Clothes").val()];
+	        item.meds          =["Medication:", $("#Medication").val()];
+	        item.toiletries       =["Toiletries:", $("#Toiletries").val()];	        
+	        item.Duration       =["Duration:", $("#Duration").val()];	        
+	        item.slider1         =["slider1:" , $("#slider1").val()];
+	        item.startdate       =["startdate:", $("#startdate").val()];	        
+	        item.notes          =["notes:", $("#notes").val()];
  	   	   localStorage.setItem(id, JSON.stringify(item) );
 	   alert("Travel plan complete!");
 }; 
